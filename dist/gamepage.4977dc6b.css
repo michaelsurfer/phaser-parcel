@@ -1,0 +1,101 @@
+.mainWrapper{
+    box-sizing: border-box;
+    width:100%;
+    border:10px double grey;
+    border-radius: 10px;
+    background-color:rgb(44,47,57) !important;
+    background-image: url('/spacebg.b833947c.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-image: url('/texture01.d533b38b.png') 50 round;
+    padding:0px !important;
+
+}
+.dialogAvator{
+    width:100px;
+    height:100px;
+    background-image: url('/avator.47c0e2bb.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.gameDiv{
+    display:flex;
+    width:70%;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 142, 142, 0.1);
+}
+
+.missionText{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:60px;
+    padding-right:30px;
+    height:100px;
+    background-image: url('/dialogBox.aed54934.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:white;
+}
+.commandDiv{
+    width:30% !important;
+    height:600px !important;
+    background-color: rgba(255,255,255,0.1);
+
+}  
+.editorDiv{
+    width:100%;
+    height:300px;
+    margin-top:5px;
+}
+.tutorDiv{
+    flex-direction: column;
+
+    border:5px double black;
+    padding-top:10px;
+    display: flex;
+    width:100%;
+    height:240px;
+    background-color: rgb(211,211,139);
+    border-radius: 20px;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:96%;
+    height:50px;
+    margin:5px;
+    padding:5px;
+    background-color:rgb(196,166,229);
+    color:white;
+}
+.submitBtn:hover{
+    border-bottom: 2px solid black;
+}
+
+.responsive{}
+
+@media (max-width: 600px) {
+    .gameDiv{
+        width:100%;
+        height:400px;
+    }
+    .responsive{
+        flex-direction: column;
+    }
+
+    .commandDiv{
+        width:100% !important;
+    }
+
+}
+
+/*# sourceMappingURL=/gamepage.4977dc6b.css.map */
