@@ -20,6 +20,6 @@ export default {
 
     },
     update(){
-        console.log('level 1 update')
+        //console.log('level 1 update')
     }
 }

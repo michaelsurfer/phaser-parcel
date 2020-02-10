@@ -6,13 +6,29 @@
     <script src="/styles.8986bff4.js"></script><script src="/gamepage.4977dc6b.js"></script></head>
     <body>
         <script src="/phaser-parcel.e31bb0bc.js"></script>
+        <script>function change(level) {
+  console.log('change');
+  changeLevel(level);
+}</script>
         <div class="wrapper">
-            <div class="col">
-                <p>Phaser example</p>
+            <div class="row">
                 <div class="divPhaser"></div>
-                <textarea cols="30" rows="10">
-robot.move(right);
-                </textarea>
+                <div class="col">
+                        <div class="levelBox" onclick="change(1)">
+                                <h2>Level 1</h2>
+                                <label>
+                                    In this level we teach you basic javascript function....
+                                </label>    
+                                <div class="remark">DONE</div>
+                        </div>
+                        <div class="levelBox" onclick="change(2)">
+                                <h2>Level 2</h2>
+                                <label>
+                                    In this level we teach you basic javascript function....
+                                </label>    
+                                <div class="remark">DONE</div>
+                        </div>
+                </div>
             </div>
         </div>
         

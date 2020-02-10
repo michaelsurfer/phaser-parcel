@@ -3,6 +3,7 @@ export default {
     
     create(){
         this.cameras.main.backgroundColor.setTo(0,0,255);
+        this.add.image(400, 300, 'sky');
 
         this.add.text(100,100,'Level Two',{
             align: 'center',
@@ -14,6 +15,6 @@ export default {
     },
 
     update(){
-        console.log('level 2 update')
+        //console.log('level 2 update')
     }
 }
